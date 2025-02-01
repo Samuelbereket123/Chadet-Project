@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .group:hover .animation-loop-scroll {
+  animation-play-state: paused;
+}
+
+}
